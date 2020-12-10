@@ -1,0 +1,31 @@
+.breadcrumbs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 20px 0 10px;
+}
+    .breadcrumbs a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .breadcrumbs a::after {
+        content: "\E019";
+        display: inline-block;
+        position: static;
+        font-family: "icons";
+        font-weight: 400;
+        font-size: 4px;
+        -webkit-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+        margin: 5px 7px;
+    }
+    .breadcrumbs span {
+        color: #000;
+    }
+/*# sourceMappingURL=../../../maps/templates/components/breadcrumbs/breadcrumbs.css.map */

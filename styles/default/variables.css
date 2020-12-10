@@ -1,0 +1,18 @@
+:root {
+    --mainColor: #111111;
+    --mainFont: "PTRoot";
+    --fontSize: 17px;
+    --brandColor: #ae72b2;
+    --brandColorDark: #853a8c;
+    --White: #ffffff;
+    --iconColor: #d0d1d2;
+    --borderRadius: 4px;
+    --btnColor: #759299;
+    --headerShadow: 0px 6px 10px 0px rgba(221, 221, 221, .6);
+}
+@media(max-width: 575px) {
+    :root {
+        font-size: 15px;
+    }
+}
+/*# sourceMappingURL=../../maps/styles/default/variables.css.map */

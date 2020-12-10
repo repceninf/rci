@@ -1,0 +1,192 @@
+.input-check {
+    display: none;
+}
+.check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: var(--textColor);
+    color: var(--textColor)
+}
+.check:not(:last-child) {
+    margin-bottom: 12px;
+}
+.check-disable {
+        pointer-events: none;
+        color: #9c9c9c;
+}
+.input-check + .check.check-disable::before {
+        background-color: var(--bgColor);
+        background-color: var(--bgColor);
+        color: var(--bgColor);
+        color: var(--bgColor);
+}
+.input-check + .check::before {
+    content: "\E00F";
+    font-family: "icons";
+    font-size: 6px;
+    color: var(--White);
+    color: var(--White);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    background-color: var(--White);
+    background-color: var(--White);
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--borderColor);
+    border: 1px solid var(--borderColor);
+    margin-right: 7px;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.input-check:checked + .check::before {
+    background-color: var(--brandColor);
+    background-color: var(--brandColor);
+    border-color: var(--brandColor);
+    border-color: var(--brandColor);
+}
+
+.dropdown {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.dropdown-border {
+        width: 60px;
+        height: 30px;
+        margin-left: 25px;
+        border-radius: var(--borderRadius);
+        border-radius: var(--borderRadius);
+        border: 1px solid var(--iconColor);
+        border: 1px solid var(--iconColor);
+    }
+
+.dropdown::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+
+.dropdown span {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+
+.dropdown i {
+        font-size: 12px;
+        margin-left: 9px;
+        -webkit-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+}
+
+.dropdown ul {
+        padding: 3px 0;
+}
+
+.dropdown-list {
+        display: none;
+        position: absolute;
+        left: -1px;
+        top: calc(100% + 2px);
+        z-index: 2;
+        width: 100%;
+        background-color: var(--White);
+        background-color: var(--White);
+        -webkit-box-shadow: var(--Shadow);
+                box-shadow: var(--Shadow);
+        box-shadow: var(--Shadow);
+        border-radius: var(--borderRadius);
+        border-radius: var(--borderRadius);
+        border: 1px solid var(--iconColor);
+        border: 1px solid var(--iconColor);
+}
+
+.dropdown-list li a {
+            width: 100%;
+            padding: 0 10px;
+            margin: 0;
+        }
+
+.dropdown:hover .dropdown-list {
+            display: block;
+}
+
+.dropdown:hover .dropdown-list__right {
+                display: none;
+            }
+
+.dropdown:hover i {
+            -webkit-transform: rotate(90deg);
+                    transform: rotate(90deg);
+}
+
+.dropdown .dropdown::before {
+    height: 100%;
+    width: 5px;
+    left: 100%;
+    top: 0;
+}
+
+.dropdown .dropdown:hover .dropdown-list__right {
+                display: block;
+}
+
+.dropdown-without-bg .dropdown-list {
+            width: auto;
+            min-width: 300px;
+            top: calc(100% + 10px);
+            left: -15px;
+        }
+
+.dropdown-without-bg .dropdown-list__right {
+                width: auto;
+                top: -3px;
+                left: calc(100% + 5px);
+            }
+
+.dropdown-without-bg li {
+            margin: 0;
+        }
+
+.dropdown-without-bg li a, .dropdown-without-bg li span {
+                padding: 5px 15px;
+            }
+
+.dropdown-without-bg::before {
+    height: 10px;
+}
+/*# sourceMappingURL=../../../maps/templates/components/components/components.css.map */

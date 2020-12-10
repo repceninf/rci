@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+}
+
+.body__inner {
+    background-color: var(--White);
+    background-color: var(--White);
+    width: 100%;
+    font-family: var(--mainFont);
+    font-family: var(--mainFont);
+    font-size: var(--fontSize);
+    font-size: var(--fontSize);
+    font-weight: 400;
+    color: var(--mainColor);
+    color: var(--mainColor);
+    line-height: 1;
+    overflow: hidden;
+}
+
+.body__inner ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+.body__inner a {
+        display: inline-block;
+        color: inherit;
+        text-decoration: none
+    }
+
+.body__inner a:hover, .body__inner a:focus, .body__inner a:active {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+.body__inner div, .body__inner section, .body__inner a, .body__inner button, .body__inner p, .body__inner h1, .body__inner h2, .body__inner h3, .body__inner h4, .body__inner h5, .body__inner h6, .body__inner blockquote {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+.title-h1,
+.title-h2,
+.title-h3,
+.title-h4,
+.title-h5,
+.title-h6,
+.title-p {
+    margin: 0;
+}
+
+.title-h1 {
+    font-size: 34px;
+    line-height: 1.2;
+}
+.title-h2 {
+    font-size: 32px;
+    line-height: 1.13;
+}
+.title-h3 {
+    font-size: 28px;
+}
+.title-h4 {
+    font-size: 26px;
+}
+.title-h5 {
+    font-size: 24px;
+}
+.title-h6 {
+    font-size: 22px;
+}
+.title-p {
+    font-size: 18px;
+    line-height: 1.44;
+    font-weight: 700;
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+    display: none;
+}
+.swiper-button-prev1, .swiper-button-next1, .swiper-button-prev2, .swiper-button-next2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    /* border-radius: 50% !important;
+    padding: 0 !important; */
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+}
+.swiper-button-prev1::after, .swiper-button-next1::after, .swiper-button-prev2::after, .swiper-button-next2::after {
+    display: none;
+}
+.swiper-button-prev1:focus, .swiper-button-next1:focus, .swiper-button-prev2:focus, .swiper-button-next2:focus {
+    outline: none;
+}
+.swiper-button-prev1 i, .swiper-button-prev2 i, .swiper-button-next1 i, .swiper-button-next2 i {
+        display: inline-block;
+    }
+.swiper-button-prev1 i, .swiper-button-prev2 i {
+        margin-left: -1px;
+    }
+.swiper-button-next1 i, .swiper-button-next2 i {
+        margin-right: -3px;
+    }
+.tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+/* overflow-y: hidden;
+    overflow-x: auto; */
+.tab-container:not(.tab-page__active) {
+        display: none;
+    }
+.tab li {
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    }
+@media(max-width: 991px) {
+    .title-h1, .typography h1 {
+        font-size: 32px;
+    }
+}
+@media(max-width: 767px) {
+    .title-h1, .typography h1 {
+        font-size: 30px;
+    }
+    .title-h2, .typography h2 {
+        font-size: 28px;
+    }
+    .title-h3, .typography h3 {
+        font-size: 26px;
+    }
+    .title-h4, .typography h4 {
+        font-size: 24px;
+    }
+    .title-h5, .typography h5 {
+        font-size: 22px;
+    }
+    .title-h6, .typography h6 {
+        font-size: 20px;
+    }
+    .title-p {
+        font-size: 16px;
+    }
+    .swiper-button-prev1, .swiper-button-next1, .swiper-button-prev2, .swiper-button-next2 {
+        opacity: 1;
+    }
+}
+@media(max-width: 575px) {
+    .title-h1, .typography h1 {
+        font-size: 28px;
+    }
+    .title-h2, .typography h2 {
+        font-size: 26px;
+    }
+    .title-h3, .typography h3 {
+        font-size: 24px;
+    }
+    .title-h4, .typography h4 {
+        font-size: 22px;
+    }
+    .title-h5, .typography h5 {
+        font-size: 20px;
+    }
+    .title-h6, .typography h6 {
+        font-size: 18px;
+    }
+}
+/*# sourceMappingURL=../../maps/styles/default/reset.css.map */

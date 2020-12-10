@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "PTRoot";
+	src: url("../assets/fonts/pt_root_light.eot"),
+        url("../assets/fonts/pt_root_light.ttf"),
+        url("../assets/fonts/pt_root_light.woff"),
+        url("../assets/fonts/pt_root_light.woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+	font-family: "PTRoot";
+	src: url("../assets/fonts/pt_root_regular.eot"),
+        url("../assets/fonts/pt_root_regular.ttf"),
+        url("../assets/fonts/pt_root_regular.woff"),
+        url("../assets/fonts/pt_root_regular.woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+	font-family: "PTRoot";
+	src: url("../assets/fonts/pt_root_medium.eot"),
+        url("../assets/fonts/pt_root_medium.ttf"),
+        url("../assets/fonts/pt_root_medium.woff"),
+        url("../assets/fonts/pt_root_medium.woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+	font-family: "PTRoot";
+	src: url("../assets/fonts/pt_root_bold.eot"),
+        url("../assets/fonts/pt_root_bold.ttf"),
+        url("../assets/fonts/pt_root_bold.woff"),
+        url("../assets/fonts/pt_root_bold.woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+/*# sourceMappingURL=../../maps/styles/default/fonts.css.map */

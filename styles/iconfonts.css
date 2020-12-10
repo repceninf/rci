@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "icons";
+	src: url("../assets/fonts/iconfonts/icons.woff2") format("woff2"),
+		url("../assets/fonts/iconfonts/icons.woff") format("woff");
+}
+[class^="icon-"], [class*="icon-"] {
+	font-family: "icons";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	-webkit-font-feature-settings: normal;
+	        font-feature-settings: normal;
+	font-variant: normal;
+	font-weight: 400;
+    line-height: 1;
+	text-decoration: none;
+    text-transform: none;
+}
+
+
+.icon-1-0_location::before {
+	content: "\E001";
+}
+
+.icon-1-1_phone::before {
+	content: "\E002";
+}
+
+.icon-1-3_mail::before {
+	content: "\E003";
+}
+
+.icon-1-4_prev::before {
+	content: "\E004";
+}
+
+.icon-1-5_next::before {
+	content: "\E005";
+}
+/*# sourceMappingURL=../maps/styles/iconfonts.css.map */

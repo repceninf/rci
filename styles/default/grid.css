@@ -1,0 +1,38 @@
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.flexRow, .flexColumn, .flexWrap, .flexGrid { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+}
+
+.flexColumn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.flexWrap, .flexGrid {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.flexCell {
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.marginIndents {
+    margin: 0 -15px;
+}
+/*# sourceMappingURL=../../maps/styles/default/grid.css.map */

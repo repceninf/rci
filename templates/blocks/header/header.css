@@ -1,0 +1,65 @@
+.header__logo {
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    }
+        .header__logo img {
+            height: 150px;
+            width: auto;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+        }
+    .header__inner-top {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--iconColor);
+            border-bottom: 1px solid var(--iconColor);
+        }
+    .header__inner-bottom {
+            -webkit-box-shadow: var(--headerShadow);
+                    box-shadow: var(--headerShadow);
+            box-shadow: var(--headerShadow);
+        }
+    .header__nav-top {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: end;
+                -ms-flex-align: end;
+                    align-items: flex-end;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                    flex-grow: 1;
+            margin-left: 25px;
+            font-weight: 600;
+        }
+    .header__nav-top a {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                margin-bottom: 20px;
+            }
+    .header__nav-top a i {
+                    -ms-flex-negative: 0;
+                        flex-shrink: 0;
+                    margin-right: 10px;
+                }
+    .header__nav-bottom {
+            font-weight: 600;
+        }
+    .header__nav-bottom li {
+                margin-right: 25px;
+            }
+    .header__nav-bottom .dropdown li {
+                margin: 0;
+            }
+ul.header__nav-bottom {
+    padding: 20px 0;
+}
+  
+/*# sourceMappingURL=../../../maps/templates/blocks/header/header.css.map */

@@ -1,0 +1,43 @@
+.btn-bg-light, .btn-bg-dark, a.href-hover, .href-hover {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    font-size: var(--fontSize);
+    font-size: var(--fontSize);
+    font-weight: 600;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+}
+.btn-bg-light:focus, .btn-bg-dark:focus, a.href-hover:focus, .href-hover:focus {
+    outline: none;
+}
+.btn-bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 11px 14px;
+    border-radius: var(--borderRadius);
+    border-radius: var(--borderRadius);
+    background-color: var(--brandColor);
+    background-color: var(--brandColor);
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+}
+.btn-bg:hover {
+    background-color: var(--brandColorDark);
+    background-color: var(--brandColorDark);
+}
+a.href-hover:hover, .href-hover:hover {
+    color: var(--brandColor);
+    color: var(--brandColor);
+}
+/*# sourceMappingURL=../../../maps/templates/components/buttons/buttons.css.map */
