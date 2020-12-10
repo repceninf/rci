@@ -32,5 +32,23 @@ $(document).ready(function(){
             clickable: true,
         },
     });
+
+    if ($("div").is(".contacts__map")) {
+        ymaps.ready(function () {
+            var myMap = new ymaps.Map("map", {
+                center: [41.310436, 69.187385],
+                zoom: 17,
+                controls: []
+            }, {
+                searchControlProvider: 'yandex#search'
+            });
+            myMap.geoObjects
+                .add(new ymaps.Placemark([41.310436, 69.187385], {
+                }, {
+                    preset: 'islands#icon',
+                    iconColor: '#853a8c'
+                }))
+        });
+    }
 });
 //# sourceMappingURL=../maps/scripts/main.js.map

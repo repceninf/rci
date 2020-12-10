@@ -1,4 +1,4 @@
-.btn-bg-light, .btn-bg-dark, a.href-hover, .href-hover {
+.btn-bg, a.btn-bg, a.href-hover, .href-hover {
     background: none;
     border: none;
     padding: 0;
@@ -12,10 +12,10 @@
     -o-transition: all .2s;
     transition: all .2s
 }
-.btn-bg-light:focus, .btn-bg-dark:focus, a.href-hover:focus, .href-hover:focus {
+.btn-bg:focus, a.btn-bg:focus, a.href-hover:focus, .href-hover:focus {
     outline: none;
 }
-.btn-bg {
+.btn-bg, a.btn-bg {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -23,18 +23,22 @@
         flex-shrink: 0;
     color: #fff;
     cursor: pointer;
-    padding: 11px 14px;
+    padding: 15px 30px;
     border-radius: var(--borderRadius);
     border-radius: var(--borderRadius);
     background-color: var(--brandColor);
     background-color: var(--brandColor);
+    color: var(--White);
+    color: var(--White);
     -webkit-transition: all .2s;
     -o-transition: all .2s;
     transition: all .2s
 }
-.btn-bg:hover {
+.btn-bg:hover, a.btn-bg:hover {
     background-color: var(--brandColorDark);
     background-color: var(--brandColorDark);
+    color: var(--White);
+    color: var(--White);
 }
 a.href-hover:hover, .href-hover:hover {
     color: var(--brandColor);
