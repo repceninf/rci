@@ -825,9 +825,6 @@ ul.header__nav-bottom {
 .footer__bottom-socialitem:not(:first-child) {
     margin-left: 20px;
 }
-.swiper-button-prev:after, .swiper-button-next:after {
-    display: none;
-}
 .main-slider {
     position: relative;
 }
@@ -851,9 +848,9 @@ ul.header__nav-bottom {
         height: 37px;
         color: #ffffff;
         color: var(--White);
-        -webkit-transition: all 0.2s;
-        -o-transition: all 0.2s;
-        transition: all 0.2s
+        -webkit-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s
     }
 .main-slider__arrownext:hover, .main-slider__arrowprev:hover {
     background-color: #ae72b2;
@@ -861,18 +858,18 @@ ul.header__nav-bottom {
 }
 .main-slider__arrownext {
         bottom: 20px;
-        right: calc((100% - 1110px)/2);
+        right: calc((100% - 1110px) / 2);
     }
 .main-slider__arrowprev {
         bottom: 20px;
-        left: calc((100% - 1110px)/2 + 1110px - 88px);
+        left: calc((100% - 1110px) / 2 + 1110px - 88px);
     }
 .main-slider::after {
     content: "";
     display: block;
     position: absolute;
     bottom: 20px;
-    right: calc((100% - 1110px)/2);
+    right: calc((100% - 1110px) / 2);
     width: 88px;
     height: 37px;
     border-radius: 8px;
@@ -883,7 +880,7 @@ ul.header__nav-bottom {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        left: calc((100% - 1250px)/2 - 5px);
+        left: calc((100% - 1250px) / 2 - 5px);
         bottom: 30px;
         -webkit-box-pack: start;
             -ms-flex-pack: start;
@@ -909,7 +906,7 @@ ul.header__nav-bottom {
         width: 500px;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
-        background-color: rgba(17, 17, 17, 0.8);
+        background-color: rgba(17, 17, 17, .8);
         color: #ffffff;
         color: var(--White);
 }
@@ -950,7 +947,7 @@ ul.header__nav-bottom {
         .main-slider .swiper-pagination {
             left: 11px;
         }
-    .main-slider:after {
+    .main-slider::after {
         right: 15px;
     }
 }
@@ -959,7 +956,7 @@ ul.header__nav-bottom {
             max-width: 50%;
             width: 100%;
         }
-            .footer__bottom .container>.flexRow {
+            .footer__bottom .container > .flexRow {
                 -webkit-box-orient: vertical;
                 -webkit-box-direction: normal;
                     -ms-flex-direction: column;
@@ -1039,7 +1036,7 @@ ul.header__nav-bottom {
             padding: 30px 30px 45px;
             text-align: center
         }
-        .main-slider__block:before {
+        .main-slider__block::before {
         right: calc(50% - 37.5px);
     }
         .main-slider__btn {

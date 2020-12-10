@@ -94,7 +94,7 @@
             max-width: 50%;
             width: 100%;
         }
-            .footer__bottom .container>.flexRow {
+            .footer__bottom .container > .flexRow {
                 -webkit-box-orient: vertical;
                 -webkit-box-direction: normal;
                     -ms-flex-direction: column;
