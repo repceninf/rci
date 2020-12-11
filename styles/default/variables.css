@@ -1,6 +1,6 @@
 :root {
     --mainColor: #111111;
-    --mainFont: "PTRoot";
+    --mainFont: "PTRoot", sans-serif;
     --fontSize: 17px;
     --brandColor: #ae72b2;
     --brandColorDark: #853a8c;

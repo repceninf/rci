@@ -15,6 +15,10 @@ $(document).ready(function(){
         }, 300)
     });
 
+    $(".header__btn-menu").click(function() {
+        $(".header__nav-bottom").toggleClass("hover");
+    })
+
     var swiper = new Swiper('.main-slider', {
         loop: true,
         speed: 1800,
@@ -50,5 +54,18 @@ $(document).ready(function(){
                 }))
         });
     }
+
+    $(".faq__item").click(function () {
+        $accordion_item = $(this);
+        $(this).toggleClass("faq__item-hovered");
+        $(".faq__item").not($(this)).removeClass("faq__item-hovered");
+        if ($accordion_item.hasClass("faq__item-hovered")) {
+            $child = $accordion_item.find(".faq__item-answer");
+            $child.slideDown();
+            $(".faq__item-answer").not($child).slideUp();
+        } else {
+            $(".faq__item-answer").slideUp();
+        }
+    });
 });
 //# sourceMappingURL=../maps/scripts/main.js.map

@@ -1,0 +1,64 @@
+.history {
+    padding: 40px 0 60px;
+    line-height: 1.2;
+}
+    .history__inner {
+        padding-left: 80px;
+    }
+    .history-item {
+        position: relative;
+        padding: 0 0 19px 37px;
+        border-left: 2px solid var(--brandColorDark);
+        border-left: 2px solid var(--brandColorDark)
+    }
+    .history-item:last-child {
+    padding-bottom: 0;
+}
+    .history-item::before {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    border: 2px solid var(--brandColor);
+    border: 2px solid var(--brandColor);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: -13.5px;
+}
+    .history-item h3 {
+            margin: 0 0 8px;
+}
+    .history-item p {
+            margin: 0;
+}
+    .history-year {
+        position: absolute;
+        top: 0;
+        right: calc(100% + 28px);
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--iconColor);
+        color: var(--iconColor);
+    }
+    .history-year span {
+            white-space: nowrap;
+        }
+    @media(max-width: 575px) {
+        .history__inner {
+            padding-left: 10px;
+        }
+        .history-year {
+            position: static;
+            margin: 0 0 8px;
+            -webkit-transform: translateY(-2px);
+                    transform: translateY(-2px);
+        }
+            .history-year br {
+                display: none;
+            }
+        .history-item {
+            padding: 0 0 27px 28px;
+        }
+}
+/*# sourceMappingURL=../../../maps/templates/blocks/history/history.css.map */

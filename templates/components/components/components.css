@@ -189,4 +189,8 @@
 .dropdown-without-bg::before {
     height: 10px;
 }
+
+.content {
+    padding: 20px 0 60px;
+}
 /*# sourceMappingURL=../../../maps/templates/components/components/components.css.map */

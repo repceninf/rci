@@ -37,4 +37,8 @@
 .icon-1-5_next::before {
 	content: "\E005";
 }
+
+.icon-1-6_menu::before {
+	content: "\E006";
+}
 /*# sourceMappingURL=../maps/styles/iconfonts.css.map */

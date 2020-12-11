@@ -1,4 +1,4 @@
-.btn-bg, a.btn-bg, a.href-hover, .href-hover {
+.btn-bg, a.btn-bg, a.href-hover, .href-hover, .header__btn-menu {
     background: none;
     border: none;
     padding: 0;
@@ -12,7 +12,7 @@
     -o-transition: all .2s;
     transition: all .2s
 }
-.btn-bg:focus, a.btn-bg:focus, a.href-hover:focus, .href-hover:focus {
+.btn-bg:focus, a.btn-bg:focus, a.href-hover:focus, .href-hover:focus, .header__btn-menu:focus {
     outline: none;
 }
 .btn-bg, a.btn-bg {

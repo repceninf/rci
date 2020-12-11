@@ -41,20 +41,23 @@
         display: inline-block;
         color: var(--brandColor);
         color: var(--brandColor);
-        text-decoration: none
+        text-decoration: none;
+        -webkit-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s
     }
     .typography a::after {
     content: "";
     display: block;
     width: 100%;
     height: 1px;
-    background-color: var(--brandColorLight);
-    background-color: var(--brandColorLight);
+    background-color: var(--brandColor);
+    background-color: var(--brandColor);
     margin-top: -2px;
 }
-    .typography a:visited {
-    color: var(--brandColorLight);
-    color: var(--brandColorLight);
+    .typography a:hover {
+    color: var(--brandColorDark);
+    color: var(--brandColorDark);
 }
     .typography mark {
         background-color: var(--White);
@@ -112,18 +115,17 @@
                     align-items: flex-start
         }
     .typography ul li::before {
-    content: "\E00E";
-    font-family: "icons";
-    color: var(--brandColor);
-    color: var(--brandColor);
-    font-size: 11px;
+    content: "";
+    background-color: var(--brandColor);
+    background-color: var(--brandColor);
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
     margin-right: 11px;
-    margin-top: 2px;
-}
-    .typography ul li span {
-                display: block;
-                -ms-flex-negative: 1;
-                    flex-shrink: 1;
+    margin-top: 10px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
 }
     .typography ol {
         counter-reset: counter;
@@ -138,7 +140,6 @@
     content: counter(counter) ". ";
     margin-right: 14px;
     font-weight: 700;
-    font-size: 15px;
     line-height: 1.5;
     color: var(--brandColor);
     color: var(--brandColor);
